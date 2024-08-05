@@ -30,6 +30,7 @@ class _Page3State extends State<Page3> with SingleTickerProviderStateMixin {
     return Scaffold(
       appBar: AppBar(
         title: Text('Page 3 - Rotate Animation'),
+        // title: Text('Page 3 - Rotate Animation'),
       ),
       body: Center(
         child: RotationTransition(
